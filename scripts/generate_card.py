@@ -20,14 +20,14 @@ OUT_PATH = os.environ.get("OUT_PATH", "assets/profile.svg")
 # Perfil y especificaciones mostradas al estilo Neofetch
 # ---------------------------------------------------------------------------
 PROFILE_FIELDS = [
-    ("Rol", "Software Developer & UI/UX Craftsman"),
-    ("Enfoque", "Web & Mobile Applications, Clean Architecture"),
-    ("Stack.Frontend", "React, Next.js, TypeScript, TailwindCSS"),
-    ("Stack.Backend", "Node.js, Express, Python, PostgreSQL"),
-    ("Herramientas", "Git, Docker, Figma, VS Code"),
-    ("Filosofía", "Código limpio, interfaces intuitivas y alto rendimiento"),
-    ("Ubicación", "Colombia 🇨🇴"),
-    ("Contacto", f"github.com/{LOGIN}"),
+    ("Rol", "Junior Full Stack & Líder de Desarrollo"),
+    ("Enfoque", "Web & Mobile Apps (Frontend + Backend)"),
+    ("Stack.Frontend", "React, Alpine.js, TailwindCSS, JavaScript"),
+    ("Stack.Backend", "Django, Laravel, Node.js, Python, MySQL"),
+    ("Herramientas", "Antigravity IDE, VS Code, Git, GitHub, Jira"),
+    ("Filosofía", '"Si lo puedes pensar, lo puedes programar"'),
+    ("Ubicación", "Algeciras, Huila - Colombia 🇨🇴"),
+    ("Contacto", "ailyngomez.2811@gmail.com"),
 ]
 
 # ---- Paleta de colores Dark Modern (Neon Cyan & Violet) --------------------
@@ -44,10 +44,10 @@ PALETTE = [
 ]
 
 PROMPT_COMMANDS = [
-    "git commit -m 'Building future-proof solutions'",
-    "npm run build:modern-architecture",
-    "python -m elevate_developer_experience",
-    "Designing clean, beautiful & robust code",
+    "git commit -m 'Si lo puedes pensar, lo puedes programar'",
+    "python manage.py runserver // Django & React",
+    "php artisan serve // Laravel & Alpine.js",
+    "Liderando desarrollo con arquitectura limpia ✨",
 ]
 
 PROMPT_TYPE_SPEED = 0.075

@@ -5,7 +5,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Ailyn-Gomez-Dev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=%E2%9A%A1+Hola%2C+soy+Software+Developer;%E2%9C%A8+Especialista+en+Web%2C+Frontend+%26+Backend;%F0%9F%9A%80+Creando+soluciones+escalables+y+modernas;%F0%9F%92%BB+C%C3%B3digo+Limpio+%E2%80%A2+Alto+Rendimiento" alt="Typing SVG Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1200&color=38BDF8&center=true&vCenter=true&width=680&lines=%E2%9A%A1+Hola%2C+soy+Ailyn+G%C3%B3mez;%E2%9C%A8+Junior+Full+Stack+%26+L%C3%ADder+de+Desarrollo;%F0%9F%9A%80+Python+%7C+Django+%7C+Laravel+%7C+React+%7C+Alpine.js;%F0%9F%92%BB+%22Si+lo+puedes+pensar%2C+lo+puedes+programar%22" alt="Typing SVG Banner" />
 </a>
 
 <br/><br/>
@@ -40,14 +40,15 @@
 <pre>
 ╭────────────────── ✦ ESTADO DEL SISTEMA ✦ ──────────────────╮
 │                                                            │
-│  ◈ Clase       : Desarrollador Full Stack / Arquitecto Web │
-│  ◈ Nivel       : Senior Tech [████████████████████] 100%   │
+│  ◈ Clase       : Junior Full Stack & Líder de Desarrollo   │
+│  ◈ Nivel       : Level 99  [████████████████████] 100% EXP  │
 │  ◈ Energía     : 100% Impulsada por Café ☕                 │
-│  ◈ Origen      : Colombia 🇨🇴                               │
-│  ◈ Core Stack  : React, TypeScript, Node.js, Python, SQL   │
-│  ◈ Enfoque     : Arquitectura Limpia, UX & Escalabilidad  │
-│  ◈ Filosofía   : "Innovación continua & código mantenible" │
-│  ◈ Estado      : 🟢 Disponible para proyectos y retos      │
+│  ◈ Origen      : Algeciras, Huila - Colombia 🇨🇴            │
+│  ◈ Core Stack  : React, Alpine.js, Django, Laravel, MySQL  │
+│  ◈ Enfoque     : Web, Móviles, Frontend & Backend          │
+│  ◈ Filosofía   : "Si lo puedes pensar, lo puedes programar"│
+│  ◈ Entorno     : Antigravity IDE, VS Code, Git & Jira      │
+│  ◈ Estado      : 🟢 Abierta a retos y liderazgo de proyectos│
 │                                                            │
 ╰────────────────────────────────────────────────────────────╯
 </pre>
@@ -91,16 +92,12 @@
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/TU_LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:TU_CORREO@gmail.com" target="_blank">
+  <a href="mailto:ailyngomez.2811@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/>
   </a>
   &nbsp;
-  <a href="https://discord.com" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  <a href="https://instagram.com/nicolgomez.28" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
 </p>
 
@@ -120,26 +117,26 @@
 
 #### 🚀 Frontend & UI
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=for-the-badge&logo=alpinedotjs&logoColor=2E3440)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 #### ⚡ Backend & Bases de Datos
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-#### 🛠️ Herramientas & DevOps
+#### 🛠️ Herramientas & Gestión
+![Antigravity IDE](https://img.shields.io/badge/Antigravity_IDE-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 </div>
 
