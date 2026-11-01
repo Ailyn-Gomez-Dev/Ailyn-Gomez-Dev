@@ -40,16 +40,16 @@
 <table width="100%" border="0">
 <tr>
 
-<td align="left" width="56%" valign="middle">
+<td align="left" width="60%" valign="middle">
 
-<div style="background-color: #111; padding: 22px 25px; border-radius: 12px;">
+<div style="background-color: #111; padding: 20px 24px; border-radius: 12px; border: 1px solid #1c1c1c;">
 
-<pre>
+<pre style="font-family: 'Courier New', monospace; font-size: 13.5px; line-height: 1.6; margin: 0;">
 ◈  Rol          →  Junior Full Stack & Líder de Desarrollo
 ◈  Origen       →  Algeciras, Huila - Colombia
-◈  Stack Princ. →  Python, Django, Laravel, React, Alpine.js & MySQL
+◈  Stack        →  Django, Laravel, React, Alpine.js & MySQL
 ◈  Enfoque      →  Web, Móviles, Frontend & Backend
-◈  Entorno      →  Antigravity IDE, VS Code, Git, GitHub & Jira
+◈  Entorno      →  Antigravity IDE, VS Code, Git & Jira
 ◈  Filosofía    →  "Si lo puedes pensar, lo puedes programar"
 ◈  Estado       →  Disponible para Proyectos y Retos
 </pre>
@@ -58,14 +58,15 @@
 
 </td>
 
-<td align="center" width="44%" valign="middle">
+<td align="center" width="40%" valign="middle">
 
-<div style="border-radius: 14px; overflow: hidden; border: 1px solid #222;">
+<div style="border-radius: 12px; overflow: hidden; border: 1px solid #1c1c1c; background-color: #111;">
   <!-- Animacion 3D Hypercube Wireframe -->
   <img 
-    width="380"
+    width="100%"
     src="./assets/tesseract.gif"
     alt="3D Hypercube Wireframe"
+    style="display: block; border-radius: 12px;"
   />
 </div>
 
