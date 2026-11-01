@@ -5,7 +5,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Ailyn-Gomez-Dev">
-  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=28&pause=1000&color=FFFFFF&center=true&vCenter=true&width=620&lines=+Ailyn+G%C3%B3mez;+Junior+Full+Stack+%26+L%C3%ADder+de+Desarrollo;+Python+%7C+Django+%7C+Laravel+%7C+React;+Si+lo+puedes+pensar%2C+lo+puedes+programar." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=28&pause=1000&color=FFFFFF&center=true&vCenter=true&width=620&lines=+Ailyn+G%C3%B3mez;+Junior+Full+Stack+%26+L%C3%ADder+de+Desarrollo;+Python+%7C+Django+%7C+Laravel+%7C+React;+Si+lo+puedes+pensar%2C+lo+puedes+programar." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -85,7 +85,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=450&height=40&lines=Conecta+Conmigo" alt="Conecta Conmigo" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=450&height=40&lines=Conecta+Conmigo" alt="Conecta Conmigo" />
 </p>
 
 <p align="center">
@@ -111,7 +111,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Tecnolog%C3%ADas+y+Herramientas" alt="Tecnologías y Herramientas" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Tecnolog%C3%ADas+y+Herramientas" alt="Tecnologías y Herramientas" />
 </p>
 
 <div align="center">
@@ -150,7 +150,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=460&height=40&lines=Estad%C3%ADsticas+y+Actividad" alt="Estadísticas y Actividad" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=460&height=40&lines=Estad%C3%ADsticas+y+Actividad" alt="Estadísticas y Actividad" />
 </p>
 
 <div align="center">
@@ -180,7 +180,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=480&height=40&lines=Actividad+de+Contribuciones" alt="Actividad de Contribuciones" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=480&height=40&lines=Actividad+de+Contribuciones" alt="Actividad de Contribuciones" />
 </p>
 
 <div align="center">
@@ -209,7 +209,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=460&height=40&lines=Reproduciendo+en+Spotify" alt="Reproduciendo en Spotify" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=460&height=40&lines=Reproduciendo+en+Spotify" alt="Reproduciendo en Spotify" />
 </p>
 
 <div align="center">
