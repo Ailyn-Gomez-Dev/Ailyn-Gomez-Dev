@@ -134,10 +134,19 @@
 
 <div align="center">
 
-  <!-- Racha en GitHub Minimalista Dark -->
-  <p align="center">
-    <img src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
-  </p>
+  <!-- Tabla con GIF de Bad Bunny y Racha de GitHub lado a lado -->
+  <table border="0">
+    <tr>
+      <td align="center" valign="middle">
+        <div style="border-radius: 12px; overflow: hidden; border: 1px solid #1c1c1c; background-color: #0b0f19;">
+          <img width="210" height="195" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; border-radius: 12px; object-fit: cover;" />
+        </div>
+      </td>
+      <td align="center" valign="middle">
+        <img src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
+      </td>
+    </tr>
+  </table>
 
   <br/>
 
