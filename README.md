@@ -159,9 +159,9 @@
 
   <!-- Estadisticas Generales y Top Lenguajes con Barras de Progreso -->
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=Ailyn-Gomez-Dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" alt="GitHub Stats" />
+    <img src="./assets/github-stats.svg" alt="GitHub Stats" />
     &nbsp;&nbsp;
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ailyn-Gomez-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" />
+    <img src="./assets/top-langs.svg" alt="Top Languages" />
   </p>
 
 </div>

@@ -1,4 +1,4 @@
-name: Generate Animated ASCII Profile Card
+name: Refresh Profile Cards and Stats
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'assets/profile.svg'
+      - 'assets/*.svg'
 
 permissions:
   contents: write
@@ -36,11 +36,15 @@ jobs:
           OUT_PATH: assets/profile.svg
         run: python scripts/generate_card.py
 
+      - name: Refresh stats and top languages SVGs
+        run: |
+          curl -s -L "https://github-readme-stats-eight-theta.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" -o assets/github-stats.svg || true
+          curl -s -L "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&text_color=94a3b8" -o assets/top-langs.svg || true
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/profile.svg
-          git diff --staged --quiet || git commit -m "chore(auto): refresh profile svg card"
+          git add assets/profile.svg assets/github-stats.svg assets/top-langs.svg
+          git diff --staged --quiet || git commit -m "chore(auto): refresh profile cards and stats"
           git push
-
