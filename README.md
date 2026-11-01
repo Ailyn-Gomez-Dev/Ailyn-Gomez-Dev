@@ -90,16 +90,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ailyn-Gomez-Dev" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <a href="https://github.com/Ailyn-Gomez-Dev" target="_blank" title="GitHub">
+    <img src="https://cdn.simpleicons.org/github/white" width="32" height="32" alt="GitHub" />
   </a>
-  &nbsp;
-  <a href="mailto:ailyngomez.2811@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Correo-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Correo"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:ailyngomez.2811@gmail.com" target="_blank" title="Correo">
+    <img src="https://cdn.simpleicons.org/gmail/white" width="32" height="32" alt="Correo" />
   </a>
-  &nbsp;
-  <a href="https://instagram.com/nicolgomez.28" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://instagram.com/nicolgomez.28" target="_blank" title="Instagram">
+    <img src="https://cdn.simpleicons.org/instagram/white" width="32" height="32" alt="Instagram" />
   </a>
 </p>
 
@@ -108,37 +108,48 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 6. BADGES DE TECNOLOGÍAS Y HERRAMIENTAS                           -->
+<!-- 6. TECNOLOGÍAS Y HERRAMIENTAS (ICONOS VECTORIALES LIMPIOS)        -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Tecnolog%C3%ADas+y+Herramientas" alt="Tecnologías y Herramientas" />
 </p>
 
-<div align="center">
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="38" height="38" alt="React" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/alpinejs/alpinejs-original.svg" width="38" height="38" alt="Alpine.js" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="38" height="38" alt="JavaScript" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="38" height="38" alt="TailwindCSS" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="38" height="38" alt="HTML5" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="38" height="38" alt="CSS3" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="38" height="38" alt="Python" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="38" height="38" alt="Django" />
+</p>
 
-<!-- Badges Monocromáticos Minimalistas -->
-<div align="center">
-
-![React](https://img.shields.io/badge/React-111?style=for-the-badge&logo=react&logoColor=FFFFFF)
-![Alpine.js](https://img.shields.io/badge/Alpine.js-111?style=for-the-badge&logo=alpinedotjs&logoColor=FFFFFF)
-![JavaScript](https://img.shields.io/badge/JavaScript-111?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-111?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF)
-![HTML5](https://img.shields.io/badge/HTML5-111?style=for-the-badge&logo=html5&logoColor=FFFFFF)
-![CSS3](https://img.shields.io/badge/CSS3-111?style=for-the-badge&logo=css3&logoColor=FFFFFF)
-![Python](https://img.shields.io/badge/Python-111?style=for-the-badge&logo=python&logoColor=FFFFFF)
-![Django](https://img.shields.io/badge/Django-111?style=for-the-badge&logo=django&logoColor=FFFFFF)
-![PHP](https://img.shields.io/badge/PHP-111?style=for-the-badge&logo=php&logoColor=FFFFFF)
-![Laravel](https://img.shields.io/badge/Laravel-111?style=for-the-badge&logo=laravel&logoColor=FFFFFF)
-![NodeJS](https://img.shields.io/badge/Node.js-111?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF)
-![MySQL](https://img.shields.io/badge/MySQL-111?style=for-the-badge&logo=mysql&logoColor=FFFFFF)
-![Antigravity](https://img.shields.io/badge/Antigravity_IDE-111?style=for-the-badge&logo=google&logoColor=FFFFFF)
-![VSCode](https://img.shields.io/badge/VSCode-111?style=for-the-badge&logo=visualstudiocode&logoColor=FFFFFF)
-![Git](https://img.shields.io/badge/Git-111?style=for-the-badge&logo=git&logoColor=FFFFFF)
-![GitHub](https://img.shields.io/badge/GitHub-111?style=for-the-badge&logo=github&logoColor=FFFFFF)
-![Jira](https://img.shields.io/badge/Jira-111?style=for-the-badge&logo=jira&logoColor=FFFFFF)
-
-</div>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="38" height="38" alt="PHP" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="38" height="38" alt="Laravel" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="38" height="38" alt="Node.js" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="38" height="38" alt="MySQL" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="38" height="38" alt="VSCode" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="38" height="38" alt="Git" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/white" width="36" height="36" alt="GitHub" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" width="38" height="38" alt="Jira" />
+</p>
 
 <br/>
 
