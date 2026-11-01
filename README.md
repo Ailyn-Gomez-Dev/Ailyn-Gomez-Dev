@@ -138,8 +138,15 @@
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <div style="border-radius: 12px; overflow: hidden; border: 1px solid #1c1c1c; background-color: #0b0f19;">
-          <img width="210" height="195" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; border-radius: 12px; object-fit: cover;" />
+        <!-- Mini-Ventana de Terminal para Bad Bunny -->
+        <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 12px; overflow: hidden; width: 220px;">
+          <div style="background-color: #111827; padding: 6px 12px; border-bottom: 1px solid #1e293b; text-align: left;">
+            <span style="color: #f43f5e; font-size: 11px;">●</span>
+            <span style="color: #eab308; font-size: 11px;">●</span>
+            <span style="color: #10b981; font-size: 11px;">●</span>
+            <span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94a3b8; margin-left: 6px;">badbunny.gif</span>
+          </div>
+          <img width="220" height="175" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; object-fit: cover;" />
         </div>
       </td>
       <td align="center" valign="middle">
