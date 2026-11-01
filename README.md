@@ -136,16 +136,16 @@
 
   <!-- Racha en GitHub Minimalista Dark -->
   <p align="center">
-    <img src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=dark&locale=es&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&background=0d0d0d&border=2a2a2a&stroke=2a2a2a&dates=AAAAAA&sideLabels=FFFFFF" alt="Racha en GitHub" />
+    <img src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
   </p>
 
   <br/>
 
-  <!-- Tarjeta y Gráfico Circular de Lenguajes -->
+  <!-- Estadisticas Generales y Top Lenguajes con Barras de Progreso -->
   <p align="center">
-    <img height="190" src="https://stats.pphat.top/languages?username=Ailyn-Gomez-Dev&type=card" alt="Tarjeta de Lenguajes" />
-    &nbsp;
-    <img height="190" src="https://stats.pphat.top/languages?username=Ailyn-Gomez-Dev&type=pie" alt="Gráfico Circular de Lenguajes" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Ailyn-Gomez-Dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&icon_color=a855f7&text_color=94a3b8" alt="GitHub Stats" />
+    &nbsp;&nbsp;
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ailyn-Gomez-Dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" />
   </p>
 
 </div>
