@@ -26,7 +26,7 @@ PROFILE_FIELDS = [
     ("Stack.Backend", "Django, Laravel, Node.js, Python, MySQL"),
     ("Herramientas", "Antigravity IDE, VS Code, Git, GitHub, Jira"),
     ("Filosofía", '"Si lo puedes pensar, lo puedes programar"'),
-    ("Ubicación", "Algeciras, Huila - Colombia 🇨🇴"),
+    ("Ubicación", "Algeciras, Huila - Colombia"),
     ("Contacto", "ailyngomez.2811@gmail.com"),
 ]
 
@@ -47,7 +47,7 @@ PROMPT_COMMANDS = [
     "git commit -m 'Si lo puedes pensar, lo puedes programar'",
     "python manage.py runserver // Django & React",
     "php artisan serve // Laravel & Alpine.js",
-    "Liderando desarrollo con arquitectura limpia ✨",
+    "Liderando desarrollo con arquitectura limpia",
 ]
 
 PROMPT_TYPE_SPEED = 0.075
@@ -306,7 +306,7 @@ def build_svg(art_rows, fields):
 
     prompt_y = content_bottom + 36
     H = prompt_y + PROMPT_H + 22
-    header_text = f"✨ {LOGIN}@developer-system"
+    header_text = f"{LOGIN}@developer-system"
     rule_len = max(len(header_text) + 2, ART_COLS)
     W = info_x + max(380, len(max([f"{k}: {v}" for k, v in fields], key=len)) * 8.5) + PAD
 
@@ -347,7 +347,7 @@ def build_svg(art_rows, fields):
         )
     swatch_svg = "".join(swatch_lines)
 
-    prompt_line1 = f"⚡ {LOGIN} in ~/workspace (main)"
+    prompt_line1 = f"{LOGIN} in ~/workspace (main)"
     prompt_line2 = "➜ "
 
     typed_x = PAD + (len(prompt_line2) + 1) * 9.5
