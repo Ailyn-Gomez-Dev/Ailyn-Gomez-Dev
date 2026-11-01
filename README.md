@@ -60,12 +60,12 @@
 
 <td align="center" width="44%" valign="middle">
 
-<div style="border-radius: 14px; overflow: hidden;">
-  <!-- Animación 3D Wireframe -->
+<div style="border-radius: 14px; overflow: hidden; border: 1px solid #222;">
+  <!-- Animacion 3D Hypercube Wireframe -->
   <img 
     width="380"
-    src="https://github.com/user-attachments/assets/5c6ffe80-cef0-40ed-ba4c-6b2b836594ea"
-    alt="Animación 3D Wireframe"
+    src="./assets/tesseract.gif"
+    alt="3D Hypercube Wireframe"
   />
 </div>
 
