@@ -146,7 +146,7 @@
             <span style="color: #10b981; font-size: 11px;">●</span>
             <span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94a3b8; margin-left: 6px;">badbunny.gif</span>
           </div>
-          <img width="220" height="175" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; object-fit: cover;" />
+          <img width="220" height="195" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; object-fit: cover;" />
         </div>
       </td>
       <td align="center" valign="middle">
