@@ -116,28 +116,26 @@
 
 <div align="center">
 
-### Frontend & UI
-![React](https://img.shields.io/badge/React-111?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Alpine.js](https://img.shields.io/badge/Alpine.js-111?style=for-the-badge&logo=alpinedotjs&logoColor=8BC0D0)
-![JavaScript](https://img.shields.io/badge/JavaScript-111?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-111?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC)
-![HTML5](https://img.shields.io/badge/HTML5-111?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-111?style=for-the-badge&logo=css3&logoColor=1572B6)
+<!-- Badges Monocromáticos Minimalistas -->
+<div align="center">
 
-### Backend & Bases de Datos
-![Python](https://img.shields.io/badge/Python-111?style=for-the-badge&logo=python&logoColor=3776AB)
-![Django](https://img.shields.io/badge/Django-111?style=for-the-badge&logo=django&logoColor=092E20)
-![PHP](https://img.shields.io/badge/PHP-111?style=for-the-badge&logo=php&logoColor=777BB4)
-![Laravel](https://img.shields.io/badge/Laravel-111?style=for-the-badge&logo=laravel&logoColor=FF2D20)
-![NodeJS](https://img.shields.io/badge/Node.js-111?style=for-the-badge&logo=nodedotjs&logoColor=339933)
-![MySQL](https://img.shields.io/badge/MySQL-111?style=for-the-badge&logo=mysql&logoColor=005C84)
-
-### Herramientas & Gestión
-![Antigravity IDE](https://img.shields.io/badge/Antigravity_IDE-111?style=for-the-badge&logo=google&logoColor=4285F4)
-![VS Code](https://img.shields.io/badge/VSCode-111?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
-![Git](https://img.shields.io/badge/Git-111?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-111?style=for-the-badge&logo=github&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-111?style=for-the-badge&logo=jira&logoColor=0052CC)
+![React](https://img.shields.io/badge/React-111?style=for-the-badge&logo=react&logoColor=FFFFFF)
+![Alpine.js](https://img.shields.io/badge/Alpine.js-111?style=for-the-badge&logo=alpinedotjs&logoColor=FFFFFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-111?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-111?style=for-the-badge&logo=tailwindcss&logoColor=FFFFFF)
+![HTML5](https://img.shields.io/badge/HTML5-111?style=for-the-badge&logo=html5&logoColor=FFFFFF)
+![CSS3](https://img.shields.io/badge/CSS3-111?style=for-the-badge&logo=css3&logoColor=FFFFFF)
+![Python](https://img.shields.io/badge/Python-111?style=for-the-badge&logo=python&logoColor=FFFFFF)
+![Django](https://img.shields.io/badge/Django-111?style=for-the-badge&logo=django&logoColor=FFFFFF)
+![PHP](https://img.shields.io/badge/PHP-111?style=for-the-badge&logo=php&logoColor=FFFFFF)
+![Laravel](https://img.shields.io/badge/Laravel-111?style=for-the-badge&logo=laravel&logoColor=FFFFFF)
+![NodeJS](https://img.shields.io/badge/Node.js-111?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF)
+![MySQL](https://img.shields.io/badge/MySQL-111?style=for-the-badge&logo=mysql&logoColor=FFFFFF)
+![Antigravity](https://img.shields.io/badge/Antigravity_IDE-111?style=for-the-badge&logo=google&logoColor=FFFFFF)
+![VSCode](https://img.shields.io/badge/VSCode-111?style=for-the-badge&logo=visualstudiocode&logoColor=FFFFFF)
+![Git](https://img.shields.io/badge/Git-111?style=for-the-badge&logo=git&logoColor=FFFFFF)
+![GitHub](https://img.shields.io/badge/GitHub-111?style=for-the-badge&logo=github&logoColor=FFFFFF)
+![Jira](https://img.shields.io/badge/Jira-111?style=for-the-badge&logo=jira&logoColor=FFFFFF)
 
 </div>
 
