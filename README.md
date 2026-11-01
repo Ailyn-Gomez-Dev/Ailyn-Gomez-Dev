@@ -1,78 +1,62 @@
-<div align="center">
+# <p align="center">Ailyn Nicol Gómez</p>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 1. ENCABEZADO ANIMADO (TYPING SVG) - FUENTE CLÁSICA ELEGANTE       -->
+<!-- 1. ENCABEZADO Y TÍTULOS DINÁMICOS                                   -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<a href="https://github.com/Ailyn-Gomez-Dev">
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=28&pause=1000&color=FFFFFF&center=true&vCenter=true&width=620&lines=+Ailyn+G%C3%B3mez;+Junior+Full+Stack+%26+L%C3%ADder+de+Desarrollo;+Python+%7C+Django+%7C+Laravel+%7C+React;+Si+lo+puedes+pensar%2C+lo+puedes+programar." alt="Typing SVG" />
-</a>
+</p>
 
-<br/>
-
-<!-- Contador de Visitas Minimalista -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ailyn-Gomez-Dev&style=flat-square&color=000000&label=VISITAS+AL+PERFIL" alt="Visitas al Perfil" />
+  <img src="https://komarev.com/ghpvc/?username=Ailyn-Gomez-Dev&label=VISITAS%20AL%20PERFIL&color=0b0f19&style=flat-square" alt="Contador de Visitas" />
 </p>
 
 <br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 3. TERMINAL NEOFETCH ANIMADA (profile.svg)                        -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="./assets/profile.svg" alt="Tarjeta de Perfil Animada" width="100%" />
-</p>
-
-</div>
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 2 & 3. TARJETA DE PERFIL NEOFETCH ASCII Y TERMINAL INTERACTIVA     -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+  <img src="./assets/profile.svg" alt="Terminal Neofetch ASCII Art Ailyn Gomez" width="100%" />
+</div>
+
 <br/>
 
+---
+
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 4. FICHA TÉCNICA TERMINAL + ANIMACIÓN 3D                          -->
+<!-- 4. ENTORNO DE DESARROLLO (SPECS CARD Y TESERACTO 4D)               -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<table width="100%" border="0">
-<tr>
-
-<td align="left" width="60%" valign="middle">
-
-<div style="background-color: #111; padding: 20px 24px; border-radius: 12px; border: 1px solid #1c1c1c;">
-
-<pre style="font-family: 'Courier New', monospace; font-size: 13.5px; line-height: 1.6; margin: 0;">
-◈  Rol          →  Junior Full Stack & Líder de Desarrollo
-◈  Origen       →  Algeciras, Huila - Colombia
-◈  Stack        →  Django, Laravel, React, Alpine.js & MySQL
-◈  Enfoque      →  Web, Móviles, Frontend & Backend
-◈  Entorno      →  Antigravity IDE, VS Code, Git & Jira
-◈  Filosofía    →  "Si lo puedes pensar, lo puedes programar"
-◈  Estado       →  Disponible para Proyectos y Retos
-</pre>
-
-</div>
-
-</td>
-
-<td align="center" width="40%" valign="middle">
-
-<div style="border-radius: 12px; overflow: hidden; border: 1px solid #1c1c1c; background-color: #111;">
-  <!-- Animacion 3D Hypercube Wireframe -->
-  <img 
-    width="100%"
-    src="./assets/tesseract.gif"
-    alt="3D Hypercube Wireframe"
-    style="display: block; border-radius: 12px;"
-  />
-</div>
-
-</td>
-
-</tr>
+<table border="0">
+  <tr>
+    <td align="center" valign="middle">
+      <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 12px; padding: 22px; width: 340px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+        <div style="display: flex; align-items: center; margin-bottom: 16px; border-bottom: 1px solid #1e293b; padding-bottom: 10px;">
+          <span style="font-size: 15px; font-weight: bold; color: #f8fafc; letter-spacing: 0.5px;">ESTACIÓN DE TRABAJO</span>
+        </div>
+        <div style="color: #cbd5e1; font-size: 13px; line-height: 2.1;">
+          <span style="color: #38bdf8;">❯ Sistema Operativo:</span> Windows 11 Pro<br/>
+          <span style="color: #38bdf8;">❯ Entorno Principal:</span> Antigravity IDE &amp; VS Code<br/>
+          <span style="color: #38bdf8;">❯ Shell Activo:</span> PowerShell / Zsh<br/>
+          <span style="color: #38bdf8;">❯ Metodología:</span> Scrum &amp; Liderazgo Ágil<br/>
+          <span style="color: #38bdf8;">❯ Especialidad:</span> Arquitectura Limpia y Modular<br/>
+          <span style="color: #38bdf8;">❯ Estado Actual:</span> Disponible para Proyectos
+        </div>
+      </div>
+    </td>
+    <td align="center" valign="middle">
+      <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 12px; overflow: hidden; width: 220px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+        <img width="220" height="220" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" style="display: block;" />
+      </div>
+    </td>
+  </tr>
 </table>
 
 </div>
@@ -82,7 +66,7 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 5. REDES SOCIALES Y CONTACTO                                      -->
+<!-- 5 & 6. REDES SOCIALES Y CONTACTO PROFESIONAL                      -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
@@ -90,16 +74,20 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ailyn-Gomez-Dev" target="_blank" title="GitHub">
-    <img src="https://cdn.simpleicons.org/github/white" width="32" height="32" alt="GitHub" />
+  <a href="https://github.com/Ailyn-Gomez-Dev" target="_blank">
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" height="42" alt="GitHub" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:ailyngomez.2811@gmail.com" target="_blank" title="Correo">
-    <img src="https://cdn.simpleicons.org/gmail/white" width="32" height="32" alt="Correo" />
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/LinkedIn.svg" height="42" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://instagram.com/nicolgomez.28" target="_blank" title="Instagram">
-    <img src="https://cdn.simpleicons.org/instagram/white" width="32" height="32" alt="Instagram" />
+  &nbsp;&nbsp;
+  <a href="mailto:ailyngomez.2811@gmail.com">
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Gmail-Dark.svg" height="42" alt="Correo Electronico" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://instagram.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Instagram.svg" height="42" alt="Instagram" />
   </a>
 </p>
 
@@ -108,14 +96,13 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 6. TECNOLOGÍAS Y HERRAMIENTAS (ICONOS VECTORIALES LIMPIOS)        -->
+<!-- 7. STACK TECNOLÓGICO: ÓRBITA 3D ANILLO DE SATURNO                 -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Tecnolog%C3%ADas+y+Herramientas" alt="Tecnologías y Herramientas" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=560&height=40&lines=Tecnolog%C3%ADas+y+Herramientas" alt="Tecnologias y Herramientas" />
 </p>
 
-<!-- Orbita 3D Tipo Anillo de Saturno con Iconos Desplazandose -->
 <p align="center">
   <img src="./assets/saturn-orbit.svg" alt="Orbita de Tecnologias Anillo de Saturno" width="100%" />
 </p>
@@ -129,40 +116,45 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=460&height=40&lines=Estad%C3%ADsticas+y+Actividad" alt="Estadísticas y Actividad" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=580&height=40&lines=Estad%C3%ADsticas+y+Actividad" alt="Estadísticas y Actividad" />
 </p>
 
 <div align="center">
 
-  <!-- Tabla con GIF de Bad Bunny y Racha de GitHub lado a lado -->
+  <!-- Fila 1: Terminal Bad Bunny y Racha de GitHub (ambos con altura exacta de 195px) -->
   <table border="0">
     <tr>
       <td align="center" valign="middle">
         <!-- Mini-Ventana de Terminal para Bad Bunny -->
-        <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 12px; overflow: hidden; width: 220px;">
-          <div style="background-color: #111827; padding: 6px 12px; border-bottom: 1px solid #1e293b; text-align: left;">
-            <span style="color: #f43f5e; font-size: 11px;">●</span>
-            <span style="color: #eab308; font-size: 11px;">●</span>
-            <span style="color: #10b981; font-size: 11px;">●</span>
-            <span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94a3b8; margin-left: 6px;">badbunny.gif</span>
+        <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; width: 220px; height: 195px; box-sizing: border-box;">
+          <div style="background-color: #111827; padding: 5px 12px; border-bottom: 1px solid #1e293b; text-align: left; height: 26px; box-sizing: border-box;">
+            <span style="color: #f43f5e; font-size: 10px;">●</span>
+            <span style="color: #eab308; font-size: 10px;">●</span>
+            <span style="color: #10b981; font-size: 10px;">●</span>
+            <span style="font-family: 'Courier New', monospace; font-size: 10px; color: #94a3b8; margin-left: 6px;">badbunny.gif</span>
           </div>
-          <img width="220" height="195" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; object-fit: cover;" />
+          <img width="220" height="167" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; width: 220px; height: 167px; object-fit: cover;" />
         </div>
       </td>
       <td align="center" valign="middle">
-        <img src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
+        <img height="195" src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <!-- Estadisticas Generales y Top Lenguajes con Barras de Progreso -->
-  <p align="center">
-    <img src="./assets/github-stats.svg" alt="GitHub Stats" />
-    &nbsp;&nbsp;
-    <img src="./assets/top-langs.svg" alt="Top Languages" />
-  </p>
+  <!-- Fila 2: Estadisticas Generales y Top Lenguajes (ambos con altura exacta de 195px) -->
+  <table border="0">
+    <tr>
+      <td align="center" valign="middle">
+        <img height="195" src="./assets/github-stats.svg" alt="GitHub Stats" />
+      </td>
+      <td align="center" valign="middle">
+        <img height="195" src="./assets/top-langs.svg" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
 
 </div>
 
@@ -175,7 +167,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=480&height=40&lines=Actividad+de+Contribuciones" alt="Actividad de Contribuciones" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=560&height=40&lines=Actividad+de+Contribuciones" alt="Actividad de Contribuciones" />
 </p>
 
 <div align="center">
@@ -195,7 +187,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=460&height=40&lines=Reproduciendo+en+Spotify" alt="Reproduciendo en Spotify" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=540&height=40&lines=Reproduciendo+en+Spotify" alt="Reproduciendo en Spotify" />
 </p>
 
 <div align="center">
