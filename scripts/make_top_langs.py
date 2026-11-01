@@ -91,3 +91,4 @@ svg_content = """<svg
 p = pathlib.Path(r'C:\Users\Ailyn Nicol\Desktop\Ailyn-Gomez-Dev\assets\top-langs.svg')
 p.write_text(svg_content.strip(), encoding='utf-8')
 print("Successfully generated assets/top-langs.svg with Python included (495x195)")
+

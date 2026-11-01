@@ -177,7 +177,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=540&height=40&lines=Reproduciendo+en+Spotify" alt="Reproduciendo en Spotify" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&height=40&lines=Reproduciendo+en+Spotify" alt="Reproduciendo en Spotify" />
 </p>
 
 <div align="center">
