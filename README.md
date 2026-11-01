@@ -163,20 +163,11 @@
 </p>
 
 <div align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Ailyn-Gomez-Dev/Ailyn-Gomez-Dev/pacman-output/pacman-contribution-graph-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Ailyn-Gomez-Dev/Ailyn-Gomez-Dev/pacman-output/pacman-contribution-graph.svg"
-    />
-    <img
-      alt="Animación Pacman de Contribuciones"
-      src="https://raw.githubusercontent.com/Ailyn-Gomez-Dev/Ailyn-Gomez-Dev/pacman-output/pacman-contribution-graph-dark.svg"
-    />
-  </picture>
+  <img
+    src="./assets/pacman.svg"
+    alt="Animacion Pacman de Contribuciones"
+    width="100%"
+  />
 </div>
 
 <br/>
