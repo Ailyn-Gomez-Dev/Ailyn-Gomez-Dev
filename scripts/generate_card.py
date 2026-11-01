@@ -59,7 +59,7 @@ PROMPT_CHAR_W = 8.8
 RAMP = " .:+#@"
 CELL_W = 8.4
 CELL_H = 15.0
-ART_COLS = 38
+ART_COLS = 40
 TITLEBAR_H = 36
 
 
@@ -83,7 +83,7 @@ def ascii_rows_from_image(path):
         w, h = img.size
         side = min(w, h)
         left = (w - side) // 2
-        top = (h - side) // 2
+        top = int((h - side) * 0.2) if h > side else 0
         img = img.crop((left, top, left + side, top + side))
 
         arr = np.array(img).astype(np.float32)
