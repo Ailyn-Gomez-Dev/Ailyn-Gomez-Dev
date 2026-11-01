@@ -8,7 +8,14 @@
   <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English+SC&size=28&pause=1000&color=FFFFFF&center=true&vCenter=true&width=620&lines=+Ailyn+G%C3%B3mez;+Junior+Full+Stack+%26+L%C3%ADder+de+Desarrollo;+Python+%7C+Django+%7C+Laravel+%7C+React;+Si+lo+puedes+pensar%2C+lo+puedes+programar." alt="Typing SVG" />
 </a>
 
-<br/><br/>
+<br/>
+
+<!-- Contador de Visitas Minimalista -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ailyn-Gomez-Dev&style=flat-square&color=000000&label=VISITAS+AL+PERFIL" alt="Visitas al Perfil" />
+</p>
+
+<br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- 3. TERMINAL NEOFETCH ANIMADA (profile.svg)                        -->
