@@ -115,9 +115,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&height=40&lines=Tecnolog%C3%ADas+y+Herramientas" alt="Tecnologías y Herramientas" />
 </p>
 
-<!-- Iconos Vectoriales Flotando en Onda Continua -->
+<!-- Orbita 3D Tipo Anillo de Saturno con Iconos Desplazandose -->
 <p align="center">
-  <img src="https://stats.pphat.top/icons?name=react,js,tailwindcss,html,css,python,django,php,laravel,nodejs,mysql,vscode,git,github&effect=wave&columns=7" alt="Iconos de Tecnologias Flotando en Onda" />
+  <img src="./assets/saturn-orbit.svg" alt="Orbita de Tecnologias Anillo de Saturno" width="100%" />
 </p>
 
 <br/>
