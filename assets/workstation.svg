@@ -1,0 +1,146 @@
+<svg
+  width="520"
+  height="320"
+  viewBox="0 0 520 320"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; }
+    }
+    .term-header {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #94a3b8;
+    }
+    .status-tag {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      fill: #10b981;
+      letter-spacing: 0.5px;
+    }
+    .lbl {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Segoe UI', monospace;
+      font-size: 11.5px;
+      font-weight: 600;
+      fill: #38bdf8;
+    }
+    .arr {
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 11.5px;
+      fill: #64748b;
+    }
+    .val {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      fill: #e2e8f0;
+    }
+    .val-green {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #34d399;
+    }
+    .bullet {
+      font-family: monospace;
+      font-size: 10px;
+      fill: #a855f7;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect
+    x="0.5"
+    y="0.5"
+    width="519"
+    height="319"
+    rx="10"
+    fill="#0b0f19"
+    stroke="#1e293b"
+  />
+
+  <!-- Top Terminal Header Bar -->
+  <path
+    d="M 0.5 10.5 C 0.5 5 5 0.5 10.5 0.5 L 509.5 0.5 C 515 0.5 519.5 5 519.5 10.5 L 519.5 32.5 L 0.5 32.5 Z"
+    fill="#111827"
+  />
+  <line x1="0.5" y1="32.5" x2="519.5" y2="32.5" stroke="#1e293b" />
+
+  <!-- macOS Window Dots -->
+  <circle cx="18" cy="16.5" r="5" fill="#f43f5e" />
+  <circle cx="34" cy="16.5" r="5" fill="#eab308" />
+  <circle cx="50" cy="16.5" r="5" fill="#10b981" />
+
+  <text x="68" y="20" class="term-header">workstation.sh — zsh</text>
+  <text x="445" y="20.5" class="status-tag">● ONLINE</text>
+
+  <!-- Specifications Content -->
+  <!-- Line 1: Rol -->
+  <g transform="translate(20, 60)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Rol</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val">Junior Full Stack &amp; Líder de Desarrollo</text>
+  </g>
+
+  <!-- Line 2: Enfoque -->
+  <g transform="translate(20, 91)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Enfoque</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val">Web &amp; Mobile Apps (Frontend + Backend)</text>
+  </g>
+
+  <!-- Line 3: Stack -->
+  <g transform="translate(20, 122)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Stack Princ.</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val">Python, Django, Laravel, React, TypeScript</text>
+  </g>
+
+  <!-- Line 4: Entorno -->
+  <g transform="translate(20, 153)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Entorno</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val">Windows 11 Pro, Antigravity IDE, VS Code, Git</text>
+  </g>
+
+  <!-- Line 5: Metodología -->
+  <g transform="translate(20, 184)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Metodología</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val">Arquitectura Limpia &amp; Liderazgo Ágil (Scrum)</text>
+  </g>
+
+  <!-- Line 6: Filosofía -->
+  <g transform="translate(20, 215)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Filosofía</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val">"Si lo puedes pensar, lo puedes programar"</text>
+  </g>
+
+  <!-- Line 7: Ubicación -->
+  <g transform="translate(20, 246)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Ubicación</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val">Algeciras, Huila — Colombia</text>
+  </g>
+
+  <!-- Line 8: Estado -->
+  <g transform="translate(20, 277)">
+    <text x="0" y="0" class="bullet">◈</text>
+    <text x="14" y="0" class="lbl">Estado</text>
+    <text x="110" y="0" class="arr">→</text>
+    <text x="126" y="0" class="val-green">Disponible para Proyectos y Liderazgo</text>
+  </g>
+</svg>

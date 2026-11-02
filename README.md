@@ -27,22 +27,13 @@
 
 <div align="center">
 
-<table border="0" width="100%">
+<table border="0">
 <tr>
-<td align="left" width="58%" valign="middle">
-<pre>
-◈  Rol          →  Junior Full Stack &amp; Líder de Desarrollo
-◈  Enfoque      →  Web &amp; Mobile Apps (Frontend + Backend)
-◈  Stack Princ. →  Python, Django, Laravel, React &amp; TypeScript
-◈  Entorno      →  Windows 11 Pro, Antigravity IDE, VS Code, Git
-◈  Metodología  →  Arquitectura Limpia &amp; Liderazgo Ágil (Scrum)
-◈  Filosofía    →  "Si lo puedes pensar, lo puedes programar"
-◈  Ubicación    →  Algeciras, Huila - Colombia
-◈  Estado       →  Disponible para Proyectos y Desarrollo
-</pre>
+<td align="center" valign="middle">
+<a href="https://github.com/Ailyn-Gomez-Dev#"><img src="./assets/workstation.svg" alt="Estacion de Trabajo Ailyn Gomez" height="320" /></a>
 </td>
-<td align="center" width="42%" valign="middle">
-<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" /></a>
+<td align="center" valign="middle">
+<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="320" height="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" /></a>
 </td>
 </tr>
 </table>
