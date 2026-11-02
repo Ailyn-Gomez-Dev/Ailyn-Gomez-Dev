@@ -17,6 +17,7 @@ ICONS = [
     ("NodeJS", "nodejs.svg"),
     ("MySQL", "mysql.svg"),
     ("VSCode", "vscode.svg"),
+    ("Antigravity IDE", "antigravity.png"),
     ("Git", "git.svg"),
     ("GitHub", "github.svg"),
 ]
@@ -42,14 +43,15 @@ if os.path.exists(django_path):
     with open(django_path, "w", encoding="utf-8") as f:
         f.write(c)
 
-# Read and base64-encode all SVGs
+# Read and base64-encode all SVGs/PNGs
 encoded_icons = []
 for name, filename in ICONS:
     p = os.path.join(ICONS_DIR, filename)
     if os.path.exists(p):
         with open(p, "rb") as f:
             b64 = base64.b64encode(f.read()).decode("utf-8")
-        data_uri = f"data:image/svg+xml;base64,{b64}"
+        mime = "image/png" if filename.endswith(".png") else "image/svg+xml"
+        data_uri = f"data:{mime};base64,{b64}"
         encoded_icons.append((name, data_uri))
     else:
         print(f"Warning: {filename} not found")
@@ -121,4 +123,4 @@ full_svg = "".join(svg_parts)
 with open(OUT_SVG, "w", encoding="utf-8") as f:
     f.write(full_svg)
 
-print(f"Regenerated Saturn Orbit SVG at {OUT_SVG} with bigger icons!")
+print(f"Regenerated Saturn Orbit SVG at {OUT_SVG} with {len(encoded_icons)} icons!")
