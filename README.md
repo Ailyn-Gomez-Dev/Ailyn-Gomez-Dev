@@ -181,13 +181,20 @@
 <div align="center">
 
 <table border="0">
-<tr>
-<td align="center" valign="middle">
-  <a href="https://open.spotify.com" target="_blank">
-    <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhi3nldnmjldechz6hkvfa67qe&width=570&radius=28&footer=wave" alt="Spotify Recently Played - Nicol Gómez" />
-  </a>
-</td>
-</tr>
+  <tr>
+    <td align="center" valign="middle">
+      <!-- Tarjeta en Vivo: Portada Grande del Album Actual -->
+      <a href="https://open.spotify.com" target="_blank">
+        <img height="390" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31vhi3nldnmjldechz6hkvfa67qe&cover_image=true&theme=compact&show_offline=false&background_color=0b0f19&interchange=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <!-- Lista en Vivo: Historial de Canciones Recientes -->
+      <a href="https://open.spotify.com" target="_blank">
+        <img height="390" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhi3nldnmjldechz6hkvfa67qe&width=460&radius=15&footer=wave" alt="Spotify Recently Played - Nicol Gómez" />
+      </a>
+    </td>
+  </tr>
 </table>
 
 </div>
