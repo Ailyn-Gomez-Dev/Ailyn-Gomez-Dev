@@ -1,0 +1,71 @@
+<svg width="100%" height="160" viewBox="0 0 880 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="1" />
+      <stop offset="75%" stop-color="#ec4899" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .quote {
+        font-family: 'Cinzel', 'Georgia', serif;
+        font-size: 15px;
+        font-style: italic;
+        letter-spacing: 1px;
+        fill: #e2e8f0;
+        text-anchor: middle;
+      }
+      .author {
+        font-family: 'JetBrains Mono', 'Segoe UI', monospace;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-anchor: middle;
+      }
+      .subtext {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-size: 11px;
+        fill: #64748b;
+        letter-spacing: 0.8px;
+        text-anchor: middle;
+      }
+      .diamond {
+        fill: #a855f7;
+        filter: url(#glowFilter);
+      }
+    </style>
+  </defs>
+
+  <!-- Glowing Gradient Divider -->
+  <line x1="80" y1="24" x2="800" y2="24" stroke="url(#footerLineGrad)" stroke-width="1.8" filter="url(#glowFilter)" />
+  <line x1="160" y1="24" x2="720" y2="24" stroke="url(#footerLineGrad)" stroke-width="1.0" />
+
+  <!-- Center Decorative Diamond -->
+  <polygon points="440,16 448,24 440,32 432,24" class="diamond" />
+  <circle cx="440" cy="24" r="2" fill="#ffffff" />
+
+  <!-- Quote -->
+  <text x="440" y="66" class="quote">"Si lo puedes pensar, lo puedes programar."</text>
+
+  <!-- Author Name & Title -->
+  <text x="440" y="98" class="author" fill="url(#textGrad)">AILYN NICOL GÓMEZ · FULL STACK DEVELOPER</text>
+
+  <!-- Location & System Details -->
+  <text x="440" y="126" class="subtext">Desarrollado con arquitectura limpia en Antigravity IDE · Huila, Colombia · © 2026</text>
+</svg>

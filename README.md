@@ -1,3 +1,4 @@
+<a name="top"></a>
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- 1. ENCABEZADO Y TÍTULOS DINÁMICOS                                   -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
@@ -161,5 +162,23 @@
 </table>
 
 </div>
+
+<br/>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- 12. PIE DE PÁGINA (FOOTER)                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+  <a href="#_"><img src="./assets/footer.svg" alt="Footer Ailyn Gomez" width="100%" /></a>
+</div>
+
+<p align="center">
+  <a href="#top">
+    <img src="https://img.shields.io/badge/VOLVER%20AL%20INICIO-%E2%96%B2-0b0f19?style=flat-square&logoColor=38bdf8&labelColor=111827&color=1e293b" alt="Volver al Inicio" />
+  </a>
+</p>
 
 <br/>
