@@ -14,7 +14,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="./assets/profile.svg" alt="Terminal Neofetch ASCII Art Ailyn Gomez" width="100%" />
+  <a href="https://github.com/Ailyn-Gomez-Dev#"><img src="./assets/profile.svg" alt="Terminal Neofetch ASCII Art Ailyn Gomez" width="100%" /></a>
 </div>
 
 <br/>
@@ -42,7 +42,7 @@
 </pre>
 </td>
 <td align="center" width="42%" valign="middle">
-<img width="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" />
+<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" /></a>
 </td>
 </tr>
 </table>
@@ -88,7 +88,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/saturn-orbit.svg" alt="Orbita de Tecnologias Anillo de Saturno" width="100%" />
+  <a href="https://github.com/Ailyn-Gomez-Dev#"><img src="./assets/saturn-orbit.svg" alt="Orbita de Tecnologias Anillo de Saturno" width="100%" /></a>
 </p>
 
 <br/>
@@ -108,12 +108,12 @@
 <table border="0">
 <tr>
 <td align="center" valign="middle">
-<img width="370" height="400" alt="Bad Bunny Terminal" src="./assets/badbunny.gif" />
+<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="370" height="400" alt="Bad Bunny Terminal" src="./assets/badbunny.gif" /></a>
 </td>
 <td align="center" valign="middle">
-<img height="195" src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
+<a href="https://github.com/Ailyn-Gomez-Dev#"><img height="195" src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" /></a>
 <br/>
-<img height="195" src="./assets/top-langs.svg" alt="Top Languages" />
+<a href="https://github.com/Ailyn-Gomez-Dev#"><img height="195" src="./assets/top-langs.svg" alt="Top Languages" /></a>
 </td>
 </tr>
 </table>
@@ -133,11 +133,11 @@
 </p>
 
 <div align="center">
-  <img
+  <a href="https://github.com/Ailyn-Gomez-Dev#"><img
     src="./assets/pacman.svg"
     alt="Animacion Pacman de Contribuciones"
     width="100%"
-  />
+  /></a>
 </div>
 
 <br/>
