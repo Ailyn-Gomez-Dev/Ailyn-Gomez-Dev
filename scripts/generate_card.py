@@ -279,33 +279,32 @@ def fetch_github_stats(login, token):
 
 
 def build_svg(art_rows, fields):
-    PAD = 32
+    PAD = 24
     ART_W = ART_COLS * CELL_W
     ART_H = len(art_rows) * CELL_H
-    GAP = 40
+    GAP = 36
     FIELD_LINE_H = 22
-    HEADER_H = 26
-    RULE_GAP = 10
     SWATCH = 18
     SWATCH_GAP = 8
-    PROMPT_H = 64
+    PROMPT_H = 56
 
     info_x = PAD + ART_W + GAP
-    header_y = TITLEBAR_H + PAD + HEADER_H
-    rule_y = header_y + RULE_GAP
-    fields_start_y = rule_y + 26
+
+    # Posicionamiento superior proporcional y sin vacío innecesario
+    art_top = TITLEBAR_H + 18
+    header_y = TITLEBAR_H + 32
+    rule_y = header_y + 10
+    fields_start_y = rule_y + 24
 
     fields_h = len(fields) * FIELD_LINE_H
-    swatch_y = fields_start_y + fields_h + 16
+    swatch_y = fields_start_y + fields_h + 14
     info_bottom = swatch_y + SWATCH + 10
 
-    ART_OFFSET_Y = -6
-    art_top = fields_start_y + ART_OFFSET_Y
     art_bottom = art_top + ART_H
     content_bottom = max(info_bottom, art_bottom)
 
-    prompt_y = content_bottom + 36
-    H = prompt_y + PROMPT_H + 22
+    prompt_y = content_bottom + 28
+    H = prompt_y + PROMPT_H + 16
     header_text = f"{LOGIN}@developer-system"
     rule_len = max(len(header_text) + 2, ART_COLS)
     W = info_x + max(380, len(max([f"{k}: {v}" for k, v in fields], key=len)) * 8.5) + PAD
