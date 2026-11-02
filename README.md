@@ -71,10 +71,6 @@
     <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" height="42" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://linkedin.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/LinkedIn.svg" height="42" alt="LinkedIn" />
-  </a>
-  &nbsp;&nbsp;
   <a href="mailto:ailyngomez.2811@gmail.com">
     <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Gmail-Dark.svg" height="42" alt="Correo Electronico" />
   </a>
