@@ -8,6 +8,8 @@ ICONS = [
     ("Alpine.js", "alpinejs.svg"),
     ("JavaScript", "javascript.svg"),
     ("TailwindCSS", "tailwindcss.svg"),
+    ("Font Awesome", "fontawesome.svg"),
+    ("SweetAlert2", "sweetalert2.png"),
     ("HTML5", "html5.svg"),
     ("CSS3", "css3.svg"),
     ("Python", "python.svg"),
@@ -57,7 +59,7 @@ for name, filename in ICONS:
         print(f"Warning: {filename} not found")
 
 N = len(encoded_icons)
-DUR = 22.0  # seconds per complete orbit
+DUR = 24.0  # seconds per complete orbit
 CX, CY = 440, 140
 RX, RY = 360, 75
 TILT_DEG = -9
