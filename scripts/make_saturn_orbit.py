@@ -3,6 +3,7 @@ import base64
 
 ICONS = [
     ("React", "react.svg"),
+    ("Flutter", "flutter.svg"),
     ("Alpine.js", "alpinejs.svg"),
     ("JavaScript", "javascript.svg"),
     ("TailwindCSS", "tailwindcss.svg"),

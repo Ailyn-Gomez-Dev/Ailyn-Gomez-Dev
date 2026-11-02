@@ -3,7 +3,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=28&pause=1000&color=FFFFFF&center=true&vCenter=true&width=620&lines=+Ailyn+G%C3%B3mez;+Junior+Full+Stack+%26+L%C3%ADder+de+Desarrollo;+Python+%7C+Django+%7C+Laravel+%7C+React;+Si+lo+puedes+pensar%2C+lo+puedes+programar." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&size=28&pause=1000&color=FFFFFF&center=true&vCenter=true&width=660&lines=+Ailyn+G%C3%B3mez;+Junior+Full+Stack+%26+L%C3%ADder+de+Desarrollo;+Python+%7C+Django+%7C+Laravel+%7C+React+%7C+Flutter;+Si+lo+puedes+pensar%2C+lo+puedes+programar." alt="Typing SVG" />
   <br/>
   <img src="https://komarev.com/ghpvc/?username=Ailyn-Gomez-Dev&label=VISITAS%20AL%20PERFIL&color=0b0f19&style=flat-square" alt="Contador de Visitas" />
 </p>
