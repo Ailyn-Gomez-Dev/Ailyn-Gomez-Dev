@@ -2,9 +2,11 @@
 """
 Generates an ultra-aesthetic 3D Neon Quantum Core / Cyberpunk Hologram GIF
 with volumetric glow, multi-axis gyroscopic rings, pulsing core, and orbiting particles.
+Enlarged to fill the 320x320 canvas with stunning presence and optimal margins.
 """
 
 import math
+import os
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
@@ -25,8 +27,9 @@ def rot_z(x, y, z, ang):
     c, s = math.cos(ang), math.sin(ang)
     return x * c - y * s, x * s + y * c, z
 
-def project(x, y, z, fov=400):
-    dist = fov / (fov + z + 180)
+def project(x, y, z, cam_dist=420):
+    denom = max(100.0, cam_dist + z)
+    dist = cam_dist / denom
     px = CX + x * dist
     py = CY + y * dist
     return px, py, z
@@ -38,13 +41,11 @@ base_verts = [
     (0, -1,  phi), (0,  1,  phi), (0, -1, -phi), (0,  1, -phi),
     ( phi, 0, -1), ( phi, 0,  1), (-phi, 0, -1), (-phi, 0,  1)
 ]
-# Normalize
 norm_verts = []
 for vx, vy, vz in base_verts:
     l = math.sqrt(vx*vx + vy*vy + vz*vz)
     norm_verts.append((vx/l, vy/l, vz/l))
 
-# Edges connecting vertices with distance ~ 2 / phi
 edges = []
 for i in range(len(norm_verts)):
     for j in range(i + 1, len(norm_verts)):
@@ -55,14 +56,14 @@ for i in range(len(norm_verts)):
         if abs(dist - 1.05) < 0.15:
             edges.append((i, j))
 
-# Quantum particles
+# Quantum particles (enlarged orbital radius)
 np.random.seed(42)
 NUM_PARTICLES = 36
-particle_r = np.random.uniform(70, 115, NUM_PARTICLES)
+particle_r = np.random.uniform(96, 138, NUM_PARTICLES)
 particle_theta = np.random.uniform(0, 2 * math.pi, NUM_PARTICLES)
 particle_phi = np.random.uniform(-math.pi/2, math.pi/2, NUM_PARTICLES)
-particle_speed = np.random.uniform(0.8, 1.5, NUM_PARTICLES)
-particle_color_type = np.random.choice([0, 1, 2], NUM_PARTICLES)  # cyan, purple, white
+particle_speed = np.random.uniform(0.8, 1.4, NUM_PARTICLES)
+particle_color_type = np.random.choice([0, 1, 2], NUM_PARTICLES)
 
 frames = []
 
@@ -79,37 +80,35 @@ for f in range(NUM_FRAMES):
     glow_draw = ImageDraw.Draw(glow_im)
 
     # 1. Central Pulsing Energy Core
-    pulse = math.sin(angle * 3) * 0.15 + 0.85
-    core_rad = 18 * pulse
+    pulse = math.sin(angle * 3) * 0.14 + 0.86
+    core_rad = 28 * pulse
 
-    # Radial ambient glow
-    for r in range(45, 5, -5):
-        alpha = int(25 * (1 - r / 45) * pulse)
+    # Radial ambient volumetric glow
+    for r in range(75, 8, -6):
+        alpha = int(32 * (1 - r / 75) * pulse)
         glow_draw.ellipse(
             [CX - r, CY - r, CX + r, CY + r],
             fill=(168, 85, 247, alpha)  # Neon purple ambient
         )
-    for r in range(25, 2, -3):
-        alpha = int(60 * (1 - r / 25) * pulse)
+    for r in range(46, 3, -4):
+        alpha = int(85 * (1 - r / 46) * pulse)
         glow_draw.ellipse(
             [CX - r, CY - r, CX + r, CY + r],
             fill=(56, 189, 248, alpha)  # Electric cyan inner
         )
 
-    # List of 3D draw commands to depth-sort
     render_queue = []
 
     # 2. Concentric Gyroscopic Rings
-    # Ring A: Cyan horizontal tilt
-    ring_r_a = 64
-    num_pts = 48
+    # Ring A: Electric Cyan horizontal tilt
+    ring_r_a = 90
+    num_pts = 52
     ring_a_pts = []
     for i in range(num_pts):
         th = (i / num_pts) * 2 * math.pi
         x = ring_r_a * math.cos(th)
-        y = ring_r_a * math.sin(th) * 0.25
+        y = ring_r_a * math.sin(th) * 0.28
         z = ring_r_a * math.sin(th) * 0.95
-        # Rotate
         x, y, z = rot_x(x, y, z, angle * 1.0 + 0.3)
         x, y, z = rot_y(x, y, z, angle * 0.7)
         px, py, pz = project(x, y, z)
@@ -119,17 +118,16 @@ for f in range(NUM_FRAMES):
         p1 = ring_a_pts[i]
         p2 = ring_a_pts[(i + 1) % num_pts]
         avg_z = (p1[2] + p2[2]) / 2
-        render_queue.append(('line', avg_z, p1, p2, (0, 240, 255), 2.2, 'ring_cyan'))
+        render_queue.append(('line', avg_z, p1, p2, (0, 240, 255), 2.8, 'ring_cyan'))
 
-    # Ring B: Purple vertical tilt
-    ring_r_b = 82
+    # Ring B: Cyberpunk Purple vertical tilt
+    ring_r_b = 114
     ring_b_pts = []
     for i in range(num_pts):
         th = (i / num_pts) * 2 * math.pi
-        x = ring_r_b * math.sin(th) * 0.3
+        x = ring_r_b * math.sin(th) * 0.32
         y = ring_r_b * math.cos(th)
         z = ring_r_b * math.sin(th) * 0.95
-        # Rotate
         x, y, z = rot_y(x, y, z, -angle * 1.2 + 0.5)
         x, y, z = rot_z(x, y, z, angle * 0.5)
         px, py, pz = project(x, y, z)
@@ -139,17 +137,16 @@ for f in range(NUM_FRAMES):
         p1 = ring_b_pts[i]
         p2 = ring_b_pts[(i + 1) % num_pts]
         avg_z = (p1[2] + p2[2]) / 2
-        render_queue.append(('line', avg_z, p1, p2, (189, 0, 255), 1.8, 'ring_purple'))
+        render_queue.append(('line', avg_z, p1, p2, (189, 0, 255), 2.4, 'ring_purple'))
 
     # Ring C: Outer Magenta / Starlight ring
-    ring_r_c = 100
+    ring_r_c = 135
     ring_c_pts = []
     for i in range(num_pts):
         th = (i / num_pts) * 2 * math.pi
         x = ring_r_c * math.cos(th)
         y = ring_r_c * math.sin(th)
         z = 0
-        # Rotate on 3 axes
         x, y, z = rot_x(x, y, z, angle * 0.6)
         x, y, z = rot_y(x, y, z, angle * 0.9)
         x, y, z = rot_z(x, y, z, angle * 0.3)
@@ -160,10 +157,10 @@ for f in range(NUM_FRAMES):
         p1 = ring_c_pts[i]
         p2 = ring_c_pts[(i + 1) % num_pts]
         avg_z = (p1[2] + p2[2]) / 2
-        render_queue.append(('line', avg_z, p1, p2, (255, 60, 180), 1.4, 'ring_magenta'))
+        render_queue.append(('line', avg_z, p1, p2, (255, 60, 180), 2.0, 'ring_magenta'))
 
     # 3. Rotating 3D Quantum Geometric Cage (Icosahedron)
-    cage_scale = 52 + 4 * math.sin(angle * 2)
+    cage_scale = 75 + 5 * math.sin(angle * 2)
     proj_verts = []
     for vx, vy, vz in norm_verts:
         x = vx * cage_scale
@@ -178,10 +175,10 @@ for f in range(NUM_FRAMES):
         p1 = proj_verts[i]
         p2 = proj_verts[j]
         avg_z = (p1[2] + p2[2]) / 2
-        render_queue.append(('line', avg_z, p1, p2, (220, 240, 255), 1.6, 'cage'))
+        render_queue.append(('line', avg_z, p1, p2, (220, 240, 255), 2.2, 'cage'))
 
     for idx, pt in enumerate(proj_verts):
-        render_queue.append(('node', pt[2], pt, (0, 240, 255), 3.0))
+        render_queue.append(('node', pt[2], pt, (0, 240, 255), 4.2))
 
     # 4. Orbiting Quantum Particles
     for i in range(NUM_PARTICLES):
@@ -203,7 +200,7 @@ for f in range(NUM_FRAMES):
         else:
             color = (255, 255, 255)
 
-        render_queue.append(('particle', pz, (px, py, pz), color, 2.5))
+        render_queue.append(('particle', pz, (px, py, pz), color, 3.2))
 
     # Add core to queue
     render_queue.append(('core', 0, (CX, CY, 0), None, core_rad))
@@ -219,14 +216,11 @@ for f in range(NUM_FRAMES):
         depth_factor = max(0.25, min(1.0, depth_factor))
 
         if itype == 'core':
-            # Brilliant central plasma sphere
             c_r = item[4]
-            # Outer core
             glow_draw.ellipse(
                 [CX - c_r, CY - c_r, CX + c_r, CY + c_r],
-                fill=(0, 240, 255, 220)
+                fill=(0, 240, 255, 230)
             )
-            # Inner white spark
             inner_r = c_r * 0.55
             glow_draw.ellipse(
                 [CX - inner_r, CY - inner_r, CX + inner_r, CY + inner_r],
@@ -235,51 +229,49 @@ for f in range(NUM_FRAMES):
 
         elif itype == 'line':
             p1, p2, col, base_w, ltype = item[2], item[3], item[4], item[5], item[6]
-            w = max(1.0, base_w * depth_factor)
+            w = max(1.2, base_w * depth_factor)
             alpha = int(255 * (0.35 + 0.65 * depth_factor))
             line_col = (*col, alpha)
 
-            # Draw glow line on glow layer if near front
-            if depth_factor > 0.55:
+            if depth_factor > 0.50:
                 glow_draw.line(
                     [(p1[0], p1[1]), (p2[0], p2[1])],
-                    fill=(*col, int(90 * depth_factor)),
-                    width=int(w + 3)
+                    fill=(*col, int(115 * depth_factor)),
+                    width=int(w + 3.5)
                 )
 
-            # Draw sharp line
             draw.line([(p1[0], p1[1]), (p2[0], p2[1])], fill=line_col, width=int(w))
 
         elif itype == 'node':
             pt, col, base_r = item[2], item[3], item[4]
-            r = max(1.5, base_r * depth_factor)
+            r = max(2.0, base_r * depth_factor)
             alpha = int(255 * (0.4 + 0.6 * depth_factor))
+            draw.ellipse(
+                [pt[0] - r, pt[1] - r, pt[0] + r, pt[1] + r],
+                fill=(*col, alpha)
+            )
+            if depth_factor > 0.55:
+                glow_draw.ellipse(
+                    [pt[0] - r*2.2, pt[1] - r*2.2, pt[0] + r*2.2, pt[1] + r*2.2],
+                    fill=(*col, 120)
+                )
+
+        elif itype == 'particle':
+            pt, col, base_r = item[2], item[3], item[4]
+            r = max(1.4, base_r * depth_factor)
+            alpha = int(255 * (0.3 + 0.7 * depth_factor))
             draw.ellipse(
                 [pt[0] - r, pt[1] - r, pt[0] + r, pt[1] + r],
                 fill=(*col, alpha)
             )
             if depth_factor > 0.6:
                 glow_draw.ellipse(
-                    [pt[0] - r*2, pt[1] - r*2, pt[0] + r*2, pt[1] + r*2],
+                    [pt[0] - r*2.8, pt[1] - r*2.8, pt[0] + r*2.8, pt[1] + r*2.8],
                     fill=(*col, 100)
                 )
 
-        elif itype == 'particle':
-            pt, col, base_r = item[2], item[3], item[4]
-            r = max(1.0, base_r * depth_factor)
-            alpha = int(255 * (0.3 + 0.7 * depth_factor))
-            draw.ellipse(
-                [pt[0] - r, pt[1] - r, pt[0] + r, pt[1] + r],
-                fill=(*col, alpha)
-            )
-            if depth_factor > 0.65:
-                glow_draw.ellipse(
-                    [pt[0] - r*2.5, pt[1] - r*2.5, pt[0] + r*2.5, pt[1] + r*2.5],
-                    fill=(*col, 80)
-                )
-
     # Soft blur on glow layer
-    glow_blurred = glow_im.filter(ImageFilter.GaussianBlur(radius=2))
+    glow_blurred = glow_im.filter(ImageFilter.GaussianBlur(radius=2.2))
     # Composite glow onto base
     final_frame = Image.alpha_composite(base_im, glow_blurred)
 
@@ -298,5 +290,4 @@ frames[0].save(
     loop=0,
     optimize=True
 )
-import os
-print(f"Generated Quantum Core GIF successfully: {os.path.getsize(out_gif)} bytes!")
+print(f"Generated enlarged Quantum Core GIF successfully: {os.path.getsize(out_gif)} bytes!")
