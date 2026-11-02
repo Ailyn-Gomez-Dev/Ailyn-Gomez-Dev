@@ -33,9 +33,8 @@
 <div align="center">
 
 <table border="0" width="100%">
-  <tr>
-    <td align="left" width="58%" valign="middle">
-
+<tr>
+<td align="left" width="58%" valign="middle">
 <pre>
 ◈  Rol          →  Junior Full Stack &amp; Líder de Desarrollo
 ◈  Enfoque      →  Web &amp; Mobile Apps (Frontend + Backend)
@@ -46,12 +45,11 @@
 ◈  Ubicación    →  Algeciras, Huila - Colombia
 ◈  Estado       →  Disponible para Proyectos y Desarrollo
 </pre>
-
-    </td>
-    <td align="center" width="42%" valign="middle">
-      <img width="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" />
-    </td>
-  </tr>
+</td>
+<td align="center" width="42%" valign="middle">
+<img width="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" />
+</td>
+</tr>
 </table>
 
 </div>
@@ -116,22 +114,18 @@
 
 <div align="center">
 
-  <!-- Layout lado a lado: Terminal Bad Bunny Grande a la izquierda y Racha + Lenguajes a la derecha -->
-  <table border="0">
-    <tr>
-      <td align="center" valign="middle">
-        <!-- Terminal Bad Bunny en formato ampliado (370 x 400) con cabecera macOS integrada -->
-        <img width="370" height="400" alt="Bad Bunny Terminal" src="./assets/badbunny.gif" />
-      </td>
-      <td align="center" valign="middle">
-        <!-- Racha de GitHub -->
-        <img height="195" src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
-        <br/>
-        <!-- Top Lenguajes de Programación con Python -->
-        <img height="195" src="./assets/top-langs.svg" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+<table border="0">
+<tr>
+<td align="center" valign="middle">
+<img width="370" height="400" alt="Bad Bunny Terminal" src="./assets/badbunny.gif" />
+</td>
+<td align="center" valign="middle">
+<img height="195" src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" />
+<br/>
+<img height="195" src="./assets/top-langs.svg" alt="Top Languages" />
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -170,20 +164,18 @@
 <div align="center">
 
 <table border="0">
-  <tr>
-    <td align="center" valign="middle">
-      <!-- Tarjeta en Vivo: Portada Grande del Album Actual -->
-      <a href="https://open.spotify.com" target="_blank">
-        <img height="415" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31vhi3nldnmjldechz6hkvfa67qe&cover_image=true&theme=compact&show_offline=false&background_color=0b0f19&interchange=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
-      </a>
-    </td>
-    <td align="center" valign="middle">
-      <!-- Lista en Vivo: Historial de Canciones Recientes (6 canciones) -->
-      <a href="https://open.spotify.com" target="_blank">
-        <img height="415" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhi3nldnmjldechz6hkvfa67qe&count=6&width=570&radius=28&footer=wave" alt="Spotify Recently Played - Nicol Gómez" />
-      </a>
-    </td>
-  </tr>
+<tr>
+<td align="center" valign="middle">
+<a href="https://open.spotify.com" target="_blank">
+<img height="415" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31vhi3nldnmjldechz6hkvfa67qe&cover_image=true&theme=compact&show_offline=false&background_color=0b0f19&interchange=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
+</a>
+</td>
+<td align="center" valign="middle">
+<a href="https://open.spotify.com" target="_blank">
+<img height="415" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhi3nldnmjldechz6hkvfa67qe&count=6&width=570&radius=28&footer=wave" alt="Spotify Recently Played - Nicol Gómez" />
+</a>
+</td>
+</tr>
 </table>
 
 </div>
