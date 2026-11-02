@@ -191,7 +191,7 @@
     <td align="center" valign="middle">
       <!-- Lista en Vivo: Historial de Canciones Recientes -->
       <a href="https://open.spotify.com" target="_blank">
-        <img height="390" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhi3nldnmjldechz6hkvfa67qe&width=460&radius=15&footer=wave" alt="Spotify Recently Played - Nicol Gómez" />
+        <img height="390" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhi3nldnmjldechz6hkvfa67qe&width=570&radius=28&footer=wave" alt="Spotify Recently Played - Nicol Gómez" />
       </a>
     </td>
   </tr>
