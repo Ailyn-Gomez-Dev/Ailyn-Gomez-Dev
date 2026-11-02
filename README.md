@@ -33,7 +33,7 @@
 <a href="https://github.com/Ailyn-Gomez-Dev#"><img src="./assets/workstation.svg" alt="Estacion de Trabajo Ailyn Gomez" height="320" /></a>
 </td>
 <td align="center" valign="middle">
-<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="320" height="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" /></a>
+<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="320" height="320" alt="Nucleo Cuantico Neon 3D" src="./assets/tesseract.gif" /></a>
 </td>
 </tr>
 </table>
