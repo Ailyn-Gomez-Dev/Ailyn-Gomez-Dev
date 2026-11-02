@@ -32,27 +32,24 @@
 
 <div align="center">
 
-<table border="0">
+<table border="0" width="100%">
   <tr>
-    <td align="center" valign="middle">
-      <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 12px; padding: 22px; width: 340px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; text-align: left; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
-        <div style="display: flex; align-items: center; margin-bottom: 16px; border-bottom: 1px solid #1e293b; padding-bottom: 10px;">
-          <span style="font-size: 15px; font-weight: bold; color: #f8fafc; letter-spacing: 0.5px;">ESTACIÓN DE TRABAJO</span>
-        </div>
-        <div style="color: #cbd5e1; font-size: 13px; line-height: 2.1;">
-          <span style="color: #38bdf8;">❯ Sistema Operativo:</span> Windows 11 Pro<br/>
-          <span style="color: #38bdf8;">❯ Entorno Principal:</span> Antigravity IDE &amp; VS Code<br/>
-          <span style="color: #38bdf8;">❯ Shell Activo:</span> PowerShell / Zsh<br/>
-          <span style="color: #38bdf8;">❯ Metodología:</span> Scrum &amp; Liderazgo Ágil<br/>
-          <span style="color: #38bdf8;">❯ Especialidad:</span> Arquitectura Limpia y Modular<br/>
-          <span style="color: #38bdf8;">❯ Estado Actual:</span> Disponible para Proyectos
-        </div>
-      </div>
+    <td align="left" width="58%" valign="middle">
+
+<pre>
+◈  Rol          →  Junior Full Stack &amp; Líder de Desarrollo
+◈  Enfoque      →  Web &amp; Mobile Apps (Frontend + Backend)
+◈  Stack Princ. →  Python, Django, Laravel, React &amp; TypeScript
+◈  Entorno      →  Windows 11 Pro, Antigravity IDE, VS Code, Git
+◈  Metodología  →  Arquitectura Limpia &amp; Liderazgo Ágil (Scrum)
+◈  Filosofía    →  "Si lo puedes pensar, lo puedes programar"
+◈  Ubicación    →  Algeciras, Huila - Colombia
+◈  Estado       →  Disponible para Proyectos y Desarrollo
+</pre>
+
     </td>
-    <td align="center" valign="middle">
-      <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 12px; overflow: hidden; width: 220px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
-        <img width="220" height="220" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" style="display: block;" />
-      </div>
+    <td align="center" width="42%" valign="middle">
+      <img width="320" alt="Teseracto 4D Hipercubo" src="./assets/tesseract.gif" />
     </td>
   </tr>
 </table>
