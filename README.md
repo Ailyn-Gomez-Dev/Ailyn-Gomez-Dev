@@ -120,16 +120,8 @@
   <table border="0">
     <tr>
       <td align="center" valign="middle">
-        <!-- Terminal Bad Bunny en formato ampliado (370 x 400) -->
-        <div style="background-color: #0b0f19; border: 1px solid #1e293b; border-radius: 10px; overflow: hidden; width: 370px; height: 400px; box-sizing: border-box; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
-          <div style="background-color: #111827; padding: 6px 12px; border-bottom: 1px solid #1e293b; text-align: left; height: 28px; box-sizing: border-box;">
-            <span style="color: #f43f5e; font-size: 11px;">●</span>
-            <span style="color: #eab308; font-size: 11px;">●</span>
-            <span style="color: #10b981; font-size: 11px;">●</span>
-            <span style="font-family: 'Courier New', monospace; font-size: 11px; color: #94a3b8; margin-left: 6px;">badbunny.gif</span>
-          </div>
-          <img width="370" height="370" alt="Bad Bunny" src="./assets/badbunny.gif" style="display: block; width: 370px; height: 370px; object-fit: cover;" />
-        </div>
+        <!-- Terminal Bad Bunny en formato ampliado (370 x 400) con cabecera macOS integrada -->
+        <img width="370" height="400" alt="Bad Bunny Terminal" src="./assets/badbunny.gif" />
       </td>
       <td align="center" valign="middle">
         <!-- Racha de GitHub -->
