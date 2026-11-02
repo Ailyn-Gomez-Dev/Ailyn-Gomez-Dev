@@ -14,7 +14,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <a href="https://github.com/Ailyn-Gomez-Dev#"><img src="./assets/profile.svg" alt="Terminal Neofetch ASCII Art Ailyn Gomez" width="100%" /></a>
+  <a href="#_"><img src="./assets/profile.svg" alt="Terminal Neofetch ASCII Art Ailyn Gomez" width="100%" /></a>
 </div>
 
 <br/>
@@ -30,10 +30,10 @@
 <table border="0">
 <tr>
 <td align="center" valign="middle">
-<a href="https://github.com/Ailyn-Gomez-Dev#"><img src="./assets/workstation.svg" alt="Estacion de Trabajo Ailyn Gomez" height="320" /></a>
+<a href="#_"><img src="./assets/workstation.svg" alt="Estacion de Trabajo Ailyn Gomez" height="320" /></a>
 </td>
 <td align="center" valign="middle">
-<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="320" height="320" alt="Nucleo Cuantico Neon 3D" src="./assets/tesseract.gif" /></a>
+<a href="#_"><img width="320" height="320" alt="Nucleo Cuantico Neon 3D" src="./assets/tesseract.gif" /></a>
 </td>
 </tr>
 </table>
@@ -79,7 +79,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ailyn-Gomez-Dev#"><img src="./assets/saturn-orbit.svg" alt="Orbita de Tecnologias Anillo de Saturno" width="100%" /></a>
+  <a href="#_"><img src="./assets/saturn-orbit.svg" alt="Orbita de Tecnologias Anillo de Saturno" width="100%" /></a>
 </p>
 
 <br/>
@@ -99,12 +99,12 @@
 <table border="0">
 <tr>
 <td align="center" valign="middle">
-<a href="https://github.com/Ailyn-Gomez-Dev#"><img width="370" height="400" alt="Bad Bunny Terminal" src="./assets/badbunny.gif" /></a>
+<a href="#_"><img width="370" height="400" alt="Bad Bunny Terminal" src="./assets/badbunny.gif" /></a>
 </td>
 <td align="center" valign="middle">
-<a href="https://github.com/Ailyn-Gomez-Dev#"><img height="195" src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" /></a>
+<a href="#_"><img height="195" src="https://streak-stats.demolab.com?user=Ailyn-Gomez-Dev&theme=tokyonight&hide_border=true&background=0b0f19&ring=38bdf8&fire=a855f7&currStreakLabel=38bdf8" alt="Racha en GitHub" /></a>
 <br/>
-<a href="https://github.com/Ailyn-Gomez-Dev#"><img height="195" src="./assets/top-langs.svg" alt="Top Languages" /></a>
+<a href="#_"><img height="195" src="./assets/top-langs.svg" alt="Top Languages" /></a>
 </td>
 </tr>
 </table>
@@ -124,7 +124,7 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/Ailyn-Gomez-Dev#"><img
+  <a href="#_"><img
     src="./assets/pacman.svg"
     alt="Animacion Pacman de Contribuciones"
     width="100%"
@@ -148,12 +148,12 @@
 <table border="0">
 <tr>
 <td align="center" valign="middle">
-<a href="https://open.spotify.com" target="_blank">
+<a href="#_">
 <img height="415" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31vhi3nldnmjldechz6hkvfa67qe&cover_image=true&theme=compact&show_offline=false&background_color=0b0f19&interchange=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
 </a>
 </td>
 <td align="center" valign="middle">
-<a href="https://open.spotify.com" target="_blank">
+<a href="#_">
 <img height="415" src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=31vhi3nldnmjldechz6hkvfa67qe&count=6&width=570&radius=28&footer=wave" alt="Spotify Recently Played - Nicol Gómez" />
 </a>
 </td>
